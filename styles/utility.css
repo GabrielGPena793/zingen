@@ -24,8 +24,20 @@
   display: none;
 }
 
+.grid {
+  display: grid;
+}
+
 .even-columns {
   display: grid;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
   gap: 1rem;
 }
 
